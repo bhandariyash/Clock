@@ -1,0 +1,86 @@
+body {
+	background-color : #FF9009;
+}
+
+#circle{
+	border : 10px solid #1E4466;
+	border-radius : 50%;
+	margin : auto;
+	position : relative;
+	margin-top : 50px;
+	background-color : #FFE658;
+}
+
+.o-clock{
+	position : absolute;
+	width : 20px;
+	padding : 0;
+	text-align : center;
+}
+
+.vertically-center{
+	top : 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#twelve{
+	margin : auto;
+	left : 0;
+	right : 0;
+}
+
+#three{
+	margin : auto;
+	right : 0;
+	top : 50%;
+}
+
+#six{
+	margin : auto;
+	left : 0;
+	right : 0;
+	bottom : 0;
+}
+
+#nine{
+	margin : auto;
+	left : 0;
+	top : 50%;
+}
+
+.hand{
+	position : absolute;
+	transform-origin : left;
+}
+
+#second{
+	border : 1px solid blue;
+}
+
+#minute{
+	border : 1px solid green;
+}
+
+#hour{
+	border : 1px solid red;
+}
+
+#digital{
+	border : 10px solid #1E4466;
+	background-color : #FFE658;
+	max-width : 200px;
+	text-align : center;
+	padding : 10px;
+	margin : auto;
+	margin-top : 50px;
+}
+
+#digital span{
+	font-size : 3em;
+}
+
+#circle span {
+	font-size : 2em;
+}
